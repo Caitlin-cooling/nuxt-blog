@@ -5,6 +5,17 @@
     <nuxt-link to="/posts/1">Post 1</nuxt-link>
     <nuxt-link to="/posts/2">Post 2</nuxt-link>
     <nuxt-link to="/posts/3">Post 3</nuxt-link>
+    <nuxt-link to="/posts/new" class="new-post">Add a new post</nuxt-link>
   </div>
 </template>
+
+<style scoped>
+  .new-post {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 2%;
+    border: 1px solid black;
+  }
+</style>
 
