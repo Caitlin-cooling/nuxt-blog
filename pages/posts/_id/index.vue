@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Post from '~/components/Post'
+import Post from '~/components/posts/Post'
 
 export default {
   components: {
