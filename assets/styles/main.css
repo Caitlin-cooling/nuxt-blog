@@ -25,7 +25,8 @@ ul {
 }
 
 a:hover,
-a:active {
+a:active,
+a.nuxt-link-active {
   color: grey;
 }
 
