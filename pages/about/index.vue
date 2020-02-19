@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="container">
     <h1>This is the about page</h1>
     <div class="about-content">
       <p>Lorem ipsum dolor amet keffiyeh craft beer franzen chillwave, irony tbh four loko stumptown quinoa farm-to-table distillery tofu. Fam post-ironic vegan chillwave brunch PBR&B microdosing green juice bicycle rights four dollar toast chambray gastropub butcher tumeric. Williamsburg keffiyeh lo-fi cornhole hashtag, mustache wayfarers. Banh mi stumptown kickstarter lomo craft beer four loko roof party mixtape raclette. Fixie brunch hot chicken vexillologist. Forage brunch synth taxidermy iPhone squid kickstarter, palo santo subway tile aesthetic paleo freegan kale chips mustache before they sold out. Franzen lumbersexual hexagon ennui hoodie organic lo-fi hot chicken.</p>
@@ -12,16 +12,6 @@
 </template>
 
 <style scoped>
-  .about {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .about h1 {
-    padding: 20px;
-  }
-
   .about-content {
     width: 70%;
     display: flex;
