@@ -30,7 +30,7 @@ export default {
       required: true
     },
     lastUpdated: {
-      type: Date,
+      type: String,
       required: true
     }
   }

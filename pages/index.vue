@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container home-page">
     <h1>Get the latest tech news</h1>
     <section class="featured-posts">
       <ul>
@@ -28,3 +28,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .home-page {
+    height: 600px;
+    position: relative;
+    padding: 30px;
+    background-image: url('~assets/images/main-page-background.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+</style>
